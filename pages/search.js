@@ -56,17 +56,17 @@ const Search = () => {
 export default Search
 
 const Wrapper = tw.div`
-    bg-gray-200 h-screen 
+    bg-gray-500 h-screen 
 `
 const ButtonContainer = tw.div`
-    bg-white px-4
+ w-12 px-2 rounded-full shadow-md cursor-pointer 
 `
 
-const BackButton = tw.img`
-    h-12 cursor-pointer
+const BackButton = tw.img` 
+h-12  object-contain
 `
 const InputContainer = tw.div`
-    bg-white flex items-center px-4 mb-2
+    bg-gray flex items-center px-4 mb-2 rounded-lg
 `
 
 const FromToIcons = tw.div`
@@ -84,22 +84,22 @@ const Square = tw.img`
     h-3
 `
 const InputBoxes = tw.div`
-    flex flex-col flex-1
+    flex flex-col flex-1 
 `
 
 const Input = tw.input`
-    h-10 bg-gray-200 my-2 rounded-2 p-2 outline-none border-none
+    h-10 bg-black-200 my-2 rounded-lg p-2 outline-none border-none
 `
 const PlusIcon = tw.img`
-    w-10 h-10 bg-gray-200 rounded-full ml-3
+    w-10 h-10 bg-black-200 rounded-full ml-3
 `
 
 const SavedPlaces = tw.div`
-    flex items-center bg-white px-4 py-2
+    flex items-center bg-gray px-4 py-2
 `
 const StarIcon = tw.img`
-    bg-gray-400 w-10 h-10 p-2 rounded-full mr-2
+    bg-black-400 w-10 h-10 p-2 rounded-full mr-2
 `
 const ConfirmBox = tw.div`
-bg-black text-white my-4 mx-4 py-4 text-center text-xl
+bg-white text-gray-500 my-4 mx-4 py-4 text-center text-xl rounded-lg
 `
